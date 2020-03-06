@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "first-app-tutorial": {
+      "hosting": {
+        "first-app-tutorial": [
+          "first-app-tutorial"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "first-app-tutorial",
+      "public": "dist/first-app-tutorial",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
