@@ -1,4 +1,11 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet> <!-- replaced <app-heroes> bc app will only display heroes component when it's navigated to -->
 <app-messages></app-messages>
+
+
+<!-- routerLink is a public directive in the RouterModule -->
 
